@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Prahari</title>
+    <item>
+      <title>Prahari 0.1.0</title>
+      <pubDate>Tue, 03 Nov 2026 20:31:45 GMT</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>처음 버전: 집 맥미니 상태를 개인 Slack 워크스페이스로 알리는 메뉴 막대 앱</li>
+<li>알림: 인터넷 끊김 · 복구(끊긴 시간), 재부팅(정상 재시작 · 갑자기 꺼짐 구분, 꺼져 있던 시간), 맥미니 Tailscale 로그인 · 로그아웃, Netra 접속 · 해제, 화면 공유 접속 · 해제</li>
+<li>알림: 디스크 여유 · 메모리 압박 · 스왑 · CPU · 발열, 꺼진 서비스(Claude 앱 · colima · 러너 · Netra · Tailscale), 유선 ↔ Wi‑Fi 전환, macOS 업데이트 · 예약된 재시작, 하루 한 번 상태 요약</li>
+<li>설정: 알림 종류별 켜고 끄기 · 문턱값 · 반복 억제 · 알림 잠시 끄기, Slack 시작 가이드(매니페스트 · 봇 토큰 · 채널 · 테스트 메시지)</li>
+<li>봇 토큰은 Prahari 전용 키체인에만 저장, macOS 권한 필요 없음</li>
+</ul>]]></description>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/prahari-releases/main/releases/Prahari-0.1.0.zip" length="3442897" type="application/octet-stream" sparkle:edSignature="owYhc3vyB0o63YirM1GvGeST+kSEug+rC/UCH85aGebepSbxe76R7Rdaxe31vlgGLTTqHX268ilZZldMDbRuCA=="/>
+    </item>
+  </channel>
+</rss>
