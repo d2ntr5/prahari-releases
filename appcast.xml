@@ -3,16 +3,16 @@
   <channel>
     <title>Prahari</title>
     <item>
-      <title>Prahari 0.1.1</title>
-      <pubDate>Wed, 04 Nov 2026 01:36:06 GMT</pubDate>
-      <sparkle:version>5</sparkle:version>
-      <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+      <title>Prahari 0.1.2</title>
+      <pubDate>Wed, 04 Nov 2026 01:49:31 GMT</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<ul>
-<li>고침: 설정 창의 봇 토큰 칸에 붙여 넣기(⌘V) · 타이핑이 안 되던 문제 — 편집 메뉴를 넣고, 설정 창이 열린 동안은 앱을 앞으로 가져옴(독에 잠시 보임)</li>
-<li>시작 가이드에 「복사한 토큰 붙여넣고 연결」 버튼 추가</li>
+<li>설정: 「앱 업데이트」를 일반 탭에서 정보 탭(버전 아래)으로 옮김</li>
+<li>Slack 시작 가이드 · 오류 안내의 <code>/invite @prahari</code> 를 연결된 봇의 실제 이름으로 보여 줌</li>
 </ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/prahari-releases/main/releases/Prahari-0.1.1.zip" length="3452873" type="application/octet-stream" sparkle:edSignature="HTuI4ayle8sW4fReTF6pIOzEhMWf7D9TpHD+sDI0ezwFVOLIDR2DYiJiiqDojOcpCKVL2XFGMRJDYQVMlNuhDQ=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/prahari-releases/main/releases/Prahari-0.1.2.zip" length="3453178" type="application/octet-stream" sparkle:edSignature="wK2ivYqPtS/osOhb35tnTjCetFH3f4b0+3uBuXCWxKiXbrJ94E89BgW6rayIUfWLha76h7oilpW+lYWM8jXHBg=="/>
     </item>
   </channel>
 </rss>
