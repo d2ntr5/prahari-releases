@@ -3,10 +3,10 @@
   <channel>
     <title>Prahari</title>
     <item>
-      <title>Prahari 0.1.8</title>
-      <pubDate>Sun, 08 Nov 2026 07:26:31 GMT</pubDate>
-      <sparkle:version>34</sparkle:version>
-      <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
+      <title>Prahari 0.1.9</title>
+      <pubDate>Sun, 08 Nov 2026 10:24:05 GMT</pubDate>
+      <sparkle:version>42</sparkle:version>
+      <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,11 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="34" data-v="0.1.8"><h3>v0.1.8<span class="tag">설치할 버전</span><small>2026-11-08</small></h3>
+<section data-sparkle-version="42" data-v="0.1.9"><h3>v0.1.9<span class="tag">설치할 버전</span><small>2026-11-08</small></h3>
+<ul>
+<li>바뀜: 설정은 팝업 머리의 톱니로만 엶 — 팝업 맨 아래 「설정…」 줄을 없앰 (⌘, 는 그대로)</li>
+</ul></section>
+<section data-sparkle-version="34" data-v="0.1.8"><h3>v0.1.8<small>2026-11-08</small></h3>
 <ul>
 <li>바뀜: 새 버전 · 업데이트 서버 통신 문제는 팝업 톱니의 배지로 알림 (새 버전 초록 「↓」, 통신 문제 빨강 「!」) — 톱니를 누르면 설정 › 업데이트 탭이 열림</li>
 <li>바뀜: 팝업 맨 위의 「새 버전」 띠와 통신 문제 빨간 띠는 없앰</li>
@@ -76,7 +80,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>설정: 알림 종류별 켜고 끄기 · 문턱값 · 반복 억제 · 알림 잠시 끄기, Slack 시작 가이드(매니페스트 · 봇 토큰 · 채널 · 테스트 메시지)</li>
 <li>봇 토큰은 Prahari 전용 키체인에만 저장, macOS 권한 필요 없음</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/prahari-releases/main/releases/Prahari-0.1.8.zip" length="3572305" type="application/octet-stream" sparkle:edSignature="Fb9JyrofDX4wCw5tr1oBAhl5b2yZvwYYSAHIBzVGlJPpFsH3qVnn63DZaD00h+l3q0mnFgkWYPO2HooUGZvZBQ=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/prahari-releases/main/releases/Prahari-0.1.9.zip" length="3572732" type="application/octet-stream" sparkle:edSignature="DNxLjTHGHBrgs2Kd71XfRaESt2P+xbFNVEafAbYPn8nNG1cym/eE9uL0kafq9yrGPwRCi+GLuaKxjiipKGCzDg=="/>
     </item>
   </channel>
 </rss>
