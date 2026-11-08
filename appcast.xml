@@ -3,10 +3,10 @@
   <channel>
     <title>Prahari</title>
     <item>
-      <title>Prahari 0.1.10</title>
-      <pubDate>Sun, 08 Nov 2026 11:18:27 GMT</pubDate>
-      <sparkle:version>46</sparkle:version>
-      <sparkle:shortVersionString>0.1.10</sparkle:shortVersionString>
+      <title>Prahari 0.1.11</title>
+      <pubDate>Sun, 08 Nov 2026 18:02:10 GMT</pubDate>
+      <sparkle:version>52</sparkle:version>
+      <sparkle:shortVersionString>0.1.11</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,13 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="46" data-v="0.1.10"><h3>v0.1.10<span class="tag">설치할 버전</span><small>2026-11-08</small></h3>
+<section data-sparkle-version="52" data-v="0.1.11"><h3>v0.1.11<span class="tag">설치할 버전</span><small>2026-11-09</small></h3>
+<ul>
+<li>새로: 🗄 NAS 연결 알림 — 같은 맥의 Setu(NAS 자동 연결)가 남기는 상태 파일을 읽어, NAS 가 오래 연결되지 않으면 「NAS 연결 끊김 N분째」, 다시 연결되면 「다시 연결됨 · 끊긴 시간」을 Slack 으로 (몇 분 · 알릴지는 Setu 설정 › 알림, 반복 억제는 Prahari 기준). Setu 가 실행 중인데 멈춘 것 같으면 한 번 알림. 설정 › 알림에서 켜고 끔</li>
+<li>새로: 팝업 「지금 상태」에 NAS 줄 (연결 N/M · 끊긴 NAS) — Setu 가 있을 때만</li>
+<li>바뀜: 릴리즈 · 화면 확인 스크립트가 임시 파일 · 지난 빌드 zip · 지난 화면 확인 그림을 남기지 않음 (맥미니 디스크)</li>
+</ul></section>
+<section data-sparkle-version="46" data-v="0.1.10"><h3>v0.1.10<small>2026-11-08</small></h3>
 <ul>
 <li>바뀜: 팝업 머리 모양을 다른 맥 앱과 같게 — 앱 아이콘 · 굵은 이름 · 흐린 버전 · 둥근 톱니 단추</li>
 <li>바뀜: 설정 창 머리 첫 줄에 창 단추 · 앱 아이콘 · 「Prahari 설정」(왼쪽 정렬), 그 아래 탭 줄</li>
@@ -85,7 +91,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>설정: 알림 종류별 켜고 끄기 · 문턱값 · 반복 억제 · 알림 잠시 끄기, Slack 시작 가이드(매니페스트 · 봇 토큰 · 채널 · 테스트 메시지)</li>
 <li>봇 토큰은 Prahari 전용 키체인에만 저장, macOS 권한 필요 없음</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/prahari-releases/main/releases/Prahari-0.1.10.zip" length="3574654" type="application/octet-stream" sparkle:edSignature="FSwHpu89iQZzsLuOqioL47n9sYIdODaWw4Ht9VFFjSIobGO2VcaTrEqD6y7OsMQ4PSFWHeohoKR8gLcpcEDnCg=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/prahari-releases/main/releases/Prahari-0.1.11.zip" length="3657666" type="application/octet-stream" sparkle:edSignature="RHT/bRWdMoUwZiv7KcfRaxB/jK9de7HhR8ypHxN2cnyr3aEXv8DyCCC61sXUNX5m1qikjHrphoudUjs+07vRAQ=="/>
     </item>
   </channel>
 </rss>
