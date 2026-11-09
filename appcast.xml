@@ -3,10 +3,10 @@
   <channel>
     <title>Prahari</title>
     <item>
-      <title>Prahari 0.1.16</title>
-      <pubDate>Mon, 09 Nov 2026 05:19:47 GMT</pubDate>
-      <sparkle:version>66</sparkle:version>
-      <sparkle:shortVersionString>0.1.16</sparkle:shortVersionString>
+      <title>Prahari 0.1.17</title>
+      <pubDate>Mon, 09 Nov 2026 14:07:14 GMT</pubDate>
+      <sparkle:version>74</sparkle:version>
+      <sparkle:shortVersionString>0.1.17</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,14 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="66" data-v="0.1.16"><h3>v0.1.16<span class="tag">설치할 버전</span><small>2026-11-09</small></h3>
+<section data-sparkle-version="74" data-v="0.1.17"><h3>v0.1.17<span class="tag">설치할 버전</span><small>2026-11-09</small></h3>
+<ul>
+<li>바뀜: 글씨 크기 4단계 — 작게 · 보통(처음 값) · 크게 · 아주 크게. 글씨와 함께 팝업 · 설정 창 너비, 여백, 단추, 아이콘도 같은 비율로 커지고, 화면보다 커지면 화면 안에서 멈추고 스크롤. 예전 소 · 중 · 대는 보통 · 크게 · 아주 크게로 한 번 옮김</li>
+<li>더함: 보기 메뉴 ⌘= 글씨 크게 · ⌘- 작게 · ⌘0 보통</li>
+<li>바뀜: 라이트 모드 색을 시스템 색으로 — 상자는 흰 바탕 + 구분선, 안내 상자는 흰 바탕 + 왼쪽 색 줄. 머리 색 견본은 눈 그림 없이 한 줄</li>
+<li>바뀜: 글씨 표를 모든 앱 공통 표준으로 — 가장 작은 글씨 11pt(설명 10.5 → 11), 팝업 칸 제목 · 정보 탭 앱 이름 등 자리별 크기 통일</li>
+</ul></section>
+<section data-sparkle-version="66" data-v="0.1.16"><h3>v0.1.16<small>2026-11-09</small></h3>
 <ul>
 <li>고침: 정전 직후 재부팅 기록(state.json)이 비거나 깨져 「갑자기 꺼졌다 켜짐」을 놓칠 수 있던 것 — 기록 · 알림 기록을 디스크까지 내린 뒤(F_FULLFSYNC) 바꿔 넣고, 직전 값을 .bak 으로 남겨 본 파일이 깨지면 그것을 읽음</li>
 <li>바뀜: CPU 이상은 알린 뒤 기준보다 5%p 낮아져야 풀림 (기준 근처 89 ↔ 91% 에 알림을 되풀이하지 않게, 윈도우와 같게)</li>
@@ -115,7 +122,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>설정: 알림 종류별 켜고 끄기 · 문턱값 · 반복 억제 · 알림 잠시 끄기, Slack 시작 가이드(매니페스트 · 봇 토큰 · 채널 · 테스트 메시지)</li>
 <li>봇 토큰은 Prahari 전용 키체인에만 저장, macOS 권한 필요 없음</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/prahari-releases/main/releases/Prahari-0.1.16.zip" length="3664770" type="application/octet-stream" sparkle:edSignature="pKHcKQNZo3Ygp0kiz6076C+KfDUmK2SEeN8Gyf5CbRen1wyHc/vUryMrkvrZjZvyGysnSiUqyzTF1Zsyn1fXBw=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/prahari-releases/main/releases/Prahari-0.1.17.zip" length="3692761" type="application/octet-stream" sparkle:edSignature="PGbnaJH+EPWINQEjXDzbL6JQT7ST174FlWncoPXHMmjMtJTQeN8HSYWUyZ2Sqij7YhnFpzG+zrr4VPZNUyXfCg=="/>
     </item>
   </channel>
 </rss>
