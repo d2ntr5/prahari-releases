@@ -3,10 +3,10 @@
   <channel>
     <title>Prahari</title>
     <item>
-      <title>Prahari 0.1.23</title>
-      <pubDate>Sat, 14 Nov 2026 02:59:20 GMT</pubDate>
-      <sparkle:version>112</sparkle:version>
-      <sparkle:shortVersionString>0.1.23</sparkle:shortVersionString>
+      <title>Prahari 0.1.24</title>
+      <pubDate>Sat, 14 Nov 2026 03:09:56 GMT</pubDate>
+      <sparkle:version>114</sparkle:version>
+      <sparkle:shortVersionString>0.1.24</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,12 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="112" data-v="0.1.23"><h3>v0.1.23<span class="tag">설치할 버전</span><small>2026-11-14</small></h3>
+<section data-sparkle-version="114" data-v="0.1.24"><h3>v0.1.24<span class="tag">설치할 버전</span><small>2026-11-14</small></h3>
+<ul>
+<li>바뀜: 🔐 「이 맥 Tailscale 로그인 · 로그아웃」 알림과 꺼진 서비스의 「Tailscale 앱」 감시를 선택으로 — 기본 꺼짐(맥북에서는 Tailscale 을 끌 수도 있음). 끈 동안은 위쪽 띠 · 「지금 상태」 빨강 · 하루 요약 이상 · Slack 알림 없이, 「지금 상태」에 회색으로만. 0.1.23 까지 쓰던 맥도 업데이트 때 한 번 꺼지고, 설정 › 알림에서 다시 켜면 그대로 남음</li>
+<li>고침: 꺼진 서비스가 그 맥에 설치 · 설정되지 않은 것(colima · Netra · Claude 앱 · Tailscale 앱)까지 「꺼짐」으로 알리던 것 — 설치된 앱 · colima 를 한 번이라도 띄운 맥(<code>~/.colima/default</code>) · 등록한 러너만 봄</li>
+</ul></section>
+<section data-sparkle-version="112" data-v="0.1.23"><h3>v0.1.23<small>2026-11-14</small></h3>
 <ul>
 <li>더함: 🔌 유선 랜 링크 끊김 · 복구 알림 — 랜카드 · 독의 유선 링크가 몇 초 끊겼다 같은 유선으로 다시 붙어도 알림(끊긴 때 – 다시 붙은 때 · 길이 · 표시 이름(en) · 다시 붙은 뒤 속도). 첫 끊김은 바로, 그 뒤 10분 동안의 끊김은 모아 한 건(「N분 동안 N번 더, 각 N초」), 계속되면 반복 억제 간격마다, 잠잠해지면 남은 것 바로. 2분 넘게 안 붙으면 「끊김」, 붙으면 「다시 연결됨」. 잠자기 · 깨어날 때는 알리지 않음. 설정 › 알림에서 끄고 켬</li>
 <li>바뀜: 「유선 ↔ Wi‑Fi 전환」 알림은 30초 이어질 때만 — 짧은 링크 끊김에 전환 알림이 두 개씩 가지 않게</li>
@@ -152,7 +157,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>설정: 알림 종류별 켜고 끄기 · 문턱값 · 반복 억제 · 알림 잠시 끄기, Slack 시작 가이드(매니페스트 · 봇 토큰 · 채널 · 테스트 메시지)</li>
 <li>봇 토큰은 Prahari 전용 키체인에만 저장, macOS 권한 필요 없음</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/prahari-releases/main/releases/Prahari-0.1.23.zip" length="3910464" type="application/octet-stream" sparkle:edSignature="4gsFhe8vmBWD8aoIpBgk3kxiMSyXhEpF2qnYOrHdLInLdXHrvwhxqHBJR0UrCtA1KkLlMGtTkABOwVPj03ObAg=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/prahari-releases/main/releases/Prahari-0.1.24.zip" length="3914922" type="application/octet-stream" sparkle:edSignature="2ADFQWIJ3lgzz452adpPYX4OQsZUhSSc+YDtHOsiYRXlB4d5ZrG/MW2o0529d81KuCC/kJgdNLyxzJH6gg53BQ=="/>
     </item>
   </channel>
 </rss>
