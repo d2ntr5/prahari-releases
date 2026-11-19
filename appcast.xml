@@ -3,10 +3,10 @@
   <channel>
     <title>Prahari</title>
     <item>
-      <title>Prahari 0.2.1</title>
-      <pubDate>Thu, 19 Nov 2026 15:42:37 GMT</pubDate>
-      <sparkle:version>139</sparkle:version>
-      <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+      <title>Prahari 0.2.2</title>
+      <pubDate>Thu, 19 Nov 2026 16:19:31 GMT</pubDate>
+      <sparkle:version>144</sparkle:version>
+      <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,11 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="139" data-v="0.2.1"><h3>v0.2.1<span class="tag">설치할 버전</span><small>2026-11-20</small></h3>
+<section data-sparkle-version="144" data-v="0.2.2"><h3>v0.2.2<span class="tag">설치할 버전</span><small>2026-11-20</small></h3>
+<ul>
+<li>고침: 다크 모드에서 설정 › 업데이트의 초록(새 버전) · 빨간(통신 문제) 상자 제목이 잘 안 보이던 것 — 다크에서만 제목 글자와 「●」를 밝게(초록 #6BC085 · 빨강 #E6766E). 상자 바탕 · 테두리 · 톱니 배지 · 라이트는 그대로 (앱 공통 규칙)</li>
+</ul></section>
+<section data-sparkle-version="139" data-v="0.2.1"><h3>v0.2.1<small>2026-11-20</small></h3>
 <ul>
 <li>고침: 다크 모드에서 켜진 스위치 · 주 단추가 머리 색(어두운 남색)이라 바탕과 거의 구분되지 않던 것 — 다크에서만 머리 색과 강조 글자의 중간색(남색이면 #7584B5)으로 (앱 공통 규칙). 머리 띠 색은 그대로</li>
 </ul></section>
@@ -175,7 +179,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>설정: 알림 종류별 켜고 끄기 · 문턱값 · 반복 억제 · 알림 잠시 끄기, Slack 시작 가이드(매니페스트 · 봇 토큰 · 채널 · 테스트 메시지)</li>
 <li>봇 토큰은 Prahari 전용 키체인에만 저장, macOS 권한 필요 없음</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/prahari-releases/main/releases/Prahari-0.2.1.zip" length="4707933" type="application/octet-stream" sparkle:edSignature="XAoSivSbJB0b4Uo5eKahA8eGmKH4MvL3YLn33HN7aXLzKvv7CrcOZYPLe5GRzbYgRDfzI/7F+mQi1560BwV8Dw=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/prahari-releases/main/releases/Prahari-0.2.2.zip" length="4712734" type="application/octet-stream" sparkle:edSignature="jFnhk8emCd+RLMfr6BVUbdI0i6mguiemNQzAxtkN7c9GY/YRxTWO4SOCFTpAkMGq42QJev51eIm/dZ9gPsISBg=="/>
     </item>
   </channel>
 </rss>
