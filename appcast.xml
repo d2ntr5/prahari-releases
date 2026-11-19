@@ -3,10 +3,10 @@
   <channel>
     <title>Prahari</title>
     <item>
-      <title>Prahari 0.2.4</title>
-      <pubDate>Thu, 19 Nov 2026 16:34:28 GMT</pubDate>
-      <sparkle:version>148</sparkle:version>
-      <sparkle:shortVersionString>0.2.4</sparkle:shortVersionString>
+      <title>Prahari 0.2.5</title>
+      <pubDate>Thu, 19 Nov 2026 22:46:20 GMT</pubDate>
+      <sparkle:version>152</sparkle:version>
+      <sparkle:shortVersionString>0.2.5</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,12 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="148" data-v="0.2.4"><h3>v0.2.4<span class="tag">설치할 버전</span><small>2026-11-20</small></h3>
+<section data-sparkle-version="152" data-v="0.2.5"><h3>v0.2.5<span class="tag">설치할 버전</span><small>2026-11-20</small></h3>
+<ul>
+<li>고침: 설정 › 앱 정리 › 권한 › 「앱 관리」가 시스템 설정에서 켜 두어도 늘 「확인 못 함」으로 보이던 것 — 이제 「허용됨」 · 「꺼짐」으로 보임. 확인하려면 전체 디스크 접근이 있어야 함(없으면 지금처럼 「확인 못 함」)</li>
+<li>시스템 설정에서 권한을 바꾸고 돌아오면 바로 다시 확인</li>
+</ul></section>
+<section data-sparkle-version="148" data-v="0.2.4"><h3>v0.2.4<small>2026-11-20</small></h3>
 <ul>
 <li>고침: 다크 모드에서 「자동 확인 끄기」(회색 테두리 단추) 글자를 0.2.3 의 밝은 빨강 대신 기본 글자색으로 — 회색 단추 위 밝은 빨강은 오히려 잘 안 보임 (앱 공통 규칙 좁힘). 상자 제목 · 「●」는 그대로 밝게</li>
 </ul></section>
@@ -187,7 +192,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>설정: 알림 종류별 켜고 끄기 · 문턱값 · 반복 억제 · 알림 잠시 끄기, Slack 시작 가이드(매니페스트 · 봇 토큰 · 채널 · 테스트 메시지)</li>
 <li>봇 토큰은 Prahari 전용 키체인에만 저장, macOS 권한 필요 없음</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/prahari-releases/main/releases/Prahari-0.2.4.zip" length="4713548" type="application/octet-stream" sparkle:edSignature="eYU7a+61AgrA5ZmtmfQ+U1FET6v2yI+iEHseVhL+v5WG5YnE3+wtIgV6y03GyXGoQn0kTCgSwlShGI0EN0aHAw=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/prahari-releases/main/releases/Prahari-0.2.5.zip" length="4718648" type="application/octet-stream" sparkle:edSignature="jpWS0PMhetLR6TQLgMCZ3E/GxmNqwOzost7rlc+Z/OB4YN4Sus0td/gAvRYE4VecjiXe0slES9eVFQfxqVDXDQ=="/>
     </item>
   </channel>
 </rss>
