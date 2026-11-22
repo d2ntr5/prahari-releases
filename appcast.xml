@@ -3,10 +3,10 @@
   <channel>
     <title>Prahari</title>
     <item>
-      <title>Prahari 0.3.0</title>
-      <pubDate>Sat, 21 Nov 2026 09:55:25 GMT</pubDate>
-      <sparkle:version>156</sparkle:version>
-      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+      <title>Prahari 0.3.1</title>
+      <pubDate>Sun, 22 Nov 2026 23:30:56 GMT</pubDate>
+      <sparkle:version>166</sparkle:version>
+      <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,16 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="156" data-v="0.3.0"><h3>v0.3.0<span class="tag">설치할 버전</span><small>2026-11-21</small></h3>
+<section data-sparkle-version="166" data-v="0.3.1"><h3>v0.3.1<span class="tag">설치할 버전</span><small>2026-11-23</small></h3>
+<ul>
+<li>새 기능: <b>설정 › 로그</b> 탭 (앱 정리 다음, 업데이트 · 정보 앞) — 모든 앱 공통 로그 표준</li>
+<li>로그 6가지를 따로 저장: 앱 · 업데이트 · 설정 변경 + 알림(감시가 찾은 일 · Slack 보냄 결과 · 대기열) · 상태 확인(감시 판정이 바뀔 때) · 앱 정리. 위치 <code>~/Library/Logs/Prahari</code></li>
+<li>로그마다 켜기 · 끄기, 「모두 켜기」 · 「모두 끄기」, 크기(지금 / 한도 · 파일 수 · 막대), 줄마다 「지우기…」 · 전체 「로그 초기화…」(확인 창)</li>
+<li>로그마다 파일 5개를 돌려 써 한도(앱 · 알림 · 상태 확인 · 앱 정리 20 MB, 업데이트 · 설정 변경 5 MB)를 넘지 않음</li>
+<li>「로그 내보내기…」: 모든 로그 · 지난 파일 + info.txt(버전 · macOS · CPU)를 zip 하나로 (<code>Prahari-logs-날짜-시각.zip</code>)</li>
+<li>Slack 토큰 · 메시지 본문 전문은 로그에 남기지 않음</li>
+</ul></section>
+<section data-sparkle-version="156" data-v="0.3.0"><h3>v0.3.0<small>2026-11-21</small></h3>
 <ul>
 <li>새 기능: <b>CPU 캐릭터</b> — 메뉴 막대 등대 옆에 따로, CPU 를 많이 쓸수록 빨리 달리는 캐릭터 + 숫자 (CPU 고양이 cpu-cat 을 Prahari 로 옮김)</li>
 <li>캐릭터 5가지: 고양이 · 치타 · 곰 · 사람 · 선인장 (설정 › 일반 › CPU 캐릭터). 표시 방식: 캐릭터만 · 캐릭터 + 숫자 · 미니 그래프, 땀방울 · 배터리일 때 천천히</li>
@@ -200,7 +209,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>설정: 알림 종류별 켜고 끄기 · 문턱값 · 반복 억제 · 알림 잠시 끄기, Slack 시작 가이드(매니페스트 · 봇 토큰 · 채널 · 테스트 메시지)</li>
 <li>봇 토큰은 Prahari 전용 키체인에만 저장, macOS 권한 필요 없음</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/prahari-releases/main/releases/Prahari-0.3.0.zip" length="4979192" type="application/octet-stream" sparkle:edSignature="K6lntBy2W5Y/SHbsKK/oJmt1ZinrulI/IayAg5qKAG7S505Us0EZxo345+/Q3xM6GNSt1bViAa+FLMu4nvZWAA=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/prahari-releases/main/releases/Prahari-0.3.1.zip" length="5125405" type="application/octet-stream" sparkle:edSignature="SpiO99E69Ox8icOcElZybUofjZ7zycT+yh7JZL9T6XpBYWf9PYW6vfYL1enHmir1YGJyYMxOwT1zdHzM2f43Cg=="/>
     </item>
   </channel>
 </rss>
