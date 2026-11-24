@@ -3,10 +3,10 @@
   <channel>
     <title>Prahari</title>
     <item>
-      <title>Prahari 0.3.2</title>
-      <pubDate>Mon, 23 Nov 2026 00:00:28 GMT</pubDate>
-      <sparkle:version>168</sparkle:version>
-      <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
+      <title>Prahari 0.3.3</title>
+      <pubDate>Tue, 24 Nov 2026 00:00:47 GMT</pubDate>
+      <sparkle:version>172</sparkle:version>
+      <sparkle:shortVersionString>0.3.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,14 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="168" data-v="0.3.2"><h3>v0.3.2<span class="tag">설치할 버전</span><small>2026-11-23</small></h3>
+<section data-sparkle-version="172" data-v="0.3.3"><h3>v0.3.3<span class="tag">설치할 버전</span><small>2026-11-24</small></h3>
+<ul>
+<li>바뀜: <b>이 맥 자신의 상태만 알림</b> — 다른 tailnet 기기(맥북 · 아이폰 등)가 온라인 · 오프라인이 되는 알림(📱 「tailnet 기기 온라인 · 오프라인」)을 없앰. 설정 › 알림에서도 빠짐. 이 맥 Tailscale 끊김 · 다시 연결됨, 화면 공유 · Netra 로 이 맥에 들어온 기기 이름은 그대로</li>
+<li>바뀜: 하루 요약의 Tailscale 줄에서 「온라인 기기 N대」를 뺌 (「Tailscale 연결됨」만)</li>
+<li>고침: 알림 기록(events.json)에 읽지 못하는 건이 하나 있으면 기록 전체를 잃던 것 — 이제 그 건만 버림 (예전 피어 알림 기록이 남아 있어도 나머지 기록 · 대기열 유지)</li>
+<li>바뀜: 설정 › 로그 「로그 초기화…」 단추 글자를 기본 글자색으로 (다른 회색 테두리 단추와 같게, 앱 공통 규칙). 확인 창 안 「로그 초기화」는 빨강 그대로</li>
+</ul></section>
+<section data-sparkle-version="168" data-v="0.3.2"><h3>v0.3.2<small>2026-11-23</small></h3>
 <ul>
 <li>고침: 「로그 내보내기…」 zip 안에 로그마다 <code>._app.log</code> 같은 부가 파일(macOS 확장 속성)이 함께 들어가던 것 — 이제 로그 · 지난 파일 · info.txt 만</li>
 </ul></section>
@@ -213,7 +220,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>설정: 알림 종류별 켜고 끄기 · 문턱값 · 반복 억제 · 알림 잠시 끄기, Slack 시작 가이드(매니페스트 · 봇 토큰 · 채널 · 테스트 메시지)</li>
 <li>봇 토큰은 Prahari 전용 키체인에만 저장, macOS 권한 필요 없음</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/prahari-releases/main/releases/Prahari-0.3.2.zip" length="5125466" type="application/octet-stream" sparkle:edSignature="JTKba2htjyAR869grgeLHscV+mL87BSldkOe2eqTrBvA//z3TqyXPWR8NYqbEMYQuwiZT6mRwGoyCiansnxPCA=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/prahari-releases/main/releases/Prahari-0.3.3.zip" length="5126152" type="application/octet-stream" sparkle:edSignature="4MSqlRHj/6okQUd8LXuNw12WUtvR6k1JhrM6oD6wugUwX9ou2Rku5gcaf1vxKr1voZ2+eFZhPrBshWPan6geCg=="/>
     </item>
   </channel>
 </rss>
